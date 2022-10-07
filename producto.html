@@ -25,7 +25,28 @@
     </nav>
 
     <main class="contenedor">
-        <h1>Producto</h1>
+        <h1>React Js</h1>
+
+        <div class="detalle">
+            <img class="detalle__imagen" src="img/3.jpg" alt="Imagen de producto">
+
+            <div class="detalle__contenido">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium repudiandae temporibus ipsam at sit exercitationem qui alias perspiciatis voluptatem veniam accusantium placeat dolores ex cumque ducimus, suscipit unde corrupti enim.</p>
+
+                <form class="formulario">
+                    <select class="formulario__input" name="talla" id="talla">
+                        <option disabled selected> -- Talla --</option>
+                        <option value="chica">Chica</option>
+                        <option value="mediana">Mediana</option>
+                        <option value="grande">Grande</option>
+                    </select>
+
+                    <input class="formulario__input" type="number" placeholder="Cantidad" name="cantidad" id="cantidad" min="1">
+
+                    <input class="formulario__boton" type="submit" value="Agregar al Carrito">
+                </form>
+            </div>
+        </div>
     </main>
 
     <footer class="footer">
